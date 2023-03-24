@@ -7,10 +7,11 @@ import numpy as np
 
 app = Flask(__name__)
 
+database = []
+
 try:
-    database = np.load("database.npy")
+    database = np.load("database.npy", allow_pickle=True)
 except Exception as e:
-    database = []
     np.save("database", database)
 
 @app.route('/')
@@ -24,7 +25,10 @@ def about():
 
 @app.route('/paymentSettled', methods=["GET", "POST"])
 def about2():
-    return '<h3>This is a Flask web application.</h3>'
+    global database
+    database = np.append(database, request.json)
+    np.save("database", database)
+    return 'Saved'
 
 
-app.run(host="0.0.0.0")
+app.run(host="172.17.0.1")
