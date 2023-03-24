@@ -17,13 +17,13 @@ Address:
 - [x] Raise funds on your fundraising Bitcoin wallet, which is also set up from the BIP-85 wallets, and get funded from the angel investor at the Blockfinance ECO AG booth. To receive your angel investment, you need to sign a message from one of your addresses in your Bitcoin fundraising wallet and send it to the Blockfinance ECO AG team on Discord or personally. Use the https://github.com/Blockfinance-ECO/Bitcoin-Value-Assert tool to create the timestamp and message of your fundraising Bitcoin wallet. (10 points)
 ![](./assets/signature.png)
 
-• [x]	Ensure you run your Bitcoin node with API access and txindex=1 in your bitcoin.conf file. (10 points)
+- [x] Ensure you run your Bitcoin node with API access and txindex=1 in your bitcoin.conf file. (10 points)
 
 - [x] Set up your Bitcoin Payment Server (BTCPay) and connect it to your own Bitcoin node. (10 points)
   - additional 15 point for: 
   - [x] Create your first invoice and send the link to Blockfinance ECO AG staff for review (3 points). Use 5€ as the total payment amount.
   - [x] Access the API of the Bitcoin payment server and write a wrapper in a scripting language of your choice or set up a small website to:
-  - [x] •	Set up a product for sale.
+  - [x] Set up a product for sale.
   ![](./assets/webapp.png)
   - [x] Generate an automated invoice using the API for this product.
   ![](./assets/pay.png)
@@ -41,7 +41,7 @@ Address:
 Look into `blockchain-parser` for the code.
 
 - [x] Create one paperwallet for a newborn baby of one of your employees. (don’t fund it , just create one with a greeting card) (5 points)
-![./assets/paper_wallet.png](./assets/paper_wallet.png)
+![./assets/paperwallet.png](./assets/paperwallet.png)
 
 - [x] Participants should make sure acquireto acquire the necessary documentation for onboarding with the designated Bitcoin exchange, CryptoBus, to buy or sell Bitcoin for Swiss Francs. They should approach the exchange during the Hack-Challenge and provide their company name to begin the onboarding process. It is important to inquire with the exchange regarding any specific requirements for onboarding. You need to independelty look for the CryptoBus to get a chance for onboarding. (15 points)
 See `txLookup-1.pdf`
